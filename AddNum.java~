@@ -1,0 +1,12 @@
+public class AddNum { 
+  public static int AddNum(int n, int i) { 
+    
+    if( i == 1)
+      return 1;
+    else
+    return addNum(n-1, n-i); 
+  } 
+  public static void main(String[] args) { 
+    System.out.println(AddNum(2, 7)); 
+  }
+}
